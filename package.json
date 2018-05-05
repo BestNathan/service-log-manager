@@ -27,5 +27,9 @@
   },
   "devDependencies": {
     "axios": "^0.18.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BestNathan/service-log-manager"
   }
 }
