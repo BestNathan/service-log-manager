@@ -1,0 +1,31 @@
+{
+  "name": "service-log-manager",
+  "version": "0.0.1",
+  "description": "micro-service log manager use Redis and store into MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "redis",
+    "log-manager",
+    "docker",
+    "micro-service",
+    "mongo"
+  ],
+  "author": "Nathan",
+  "license": "MIT",
+  "dependencies": {
+    "ioredis": "^3.2.2",
+    "koa": "^2.5.1",
+    "koa-bodyparser": "^4.2.0",
+    "koa-json": "^2.0.2",
+    "koa-logger": "^3.2.0",
+    "koa-onerror": "^4.0.0",
+    "koa-router": "^7.4.0",
+    "mongoose": "^5.0.17"
+  },
+  "devDependencies": {
+    "axios": "^0.18.0"
+  }
+}
